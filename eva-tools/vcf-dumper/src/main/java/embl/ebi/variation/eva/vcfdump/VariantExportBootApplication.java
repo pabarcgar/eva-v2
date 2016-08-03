@@ -17,8 +17,7 @@ package embl.ebi.variation.eva.vcfdump;
 
 import com.beust.jcommander.JCommander;
 import com.beust.jcommander.ParameterException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+
 import javax.ws.rs.core.MultivaluedHashMap;
 import org.opencb.opencga.lib.common.Config;
 import org.slf4j.LoggerFactory;
