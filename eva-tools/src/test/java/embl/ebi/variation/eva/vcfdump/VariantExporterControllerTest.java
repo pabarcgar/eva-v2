@@ -281,8 +281,7 @@ public class VariantExporterControllerTest {
     @Test(expected = IllegalArgumentException.class)
     public void nullOutputDirThrowsIllegalArgumentException() throws Exception {
         List<String> studies = Collections.singletonList("8");
-        String outputDir = null;
-        new VariantExporterController("hsapiens", DB_NAME, studies, outputDir, emptyFilter);
+        new VariantExporterController("hsapiens", DB_NAME, studies, null, emptyFilter);
     }
 
     private void assertEqualLinesFilesAndDB(String fileName, VariantDBIterator iterator) throws IOException {
