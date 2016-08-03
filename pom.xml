@@ -19,7 +19,7 @@
 
     <modules>
         <module>eva-pipeline</module>
-        <module>eva-tools</module>
+        <module>eva-tools/vcf-dumper</module>
         <!-- <module>eva-data-access</module> -->
     </modules>
 
