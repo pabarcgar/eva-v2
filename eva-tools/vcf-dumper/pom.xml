@@ -16,6 +16,7 @@
     <modules>
         <module>vcf-dumper-lib</module>
         <module>vcf-dumper-cli</module>
+        <module>vcf-dumper-ws</module>
     </modules>
     <!--Import dependency management from Spring Boot-->
     <dependencyManagement>
